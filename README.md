@@ -1,31 +1,19 @@
-#🧙 WitchCast
+# 🧙‍♀️ WhiskerCast: A Magical Weather Oracle
 
-A magical weather forecasting app that predicts temperature thresholds using historical data and real-time Meteomatics API. Built with FastAPI and React.
+WhiskerCast is a whimsical, responsive weather app that helps users plan outdoor adventures by revealing the likelihood of extreme weather conditions—hot, cold, wet, windy, or uncomfortable—based on NASA Earth observation data.
 
-*Stack*: FastAPI (backend), React (frontend), Meteomatics API (weather data)
+🌤️ Personalized dashboard  
+📅 Historical weather insights  
+🎨 Fantasy-inspired interface  
+🛰️ Powered by NASA data
 
-This app lets users query historical weather data for a specific location and date, and calculates the probability of exceeding a temperature threshold. It visualizes the results with a histogram and allows CSV export.
+## 🌐 Live Demo
+[Click here to explore WhiskerCast](https://your-live-demo-link.com)
 
----
-
-## 🛠 Backend Setup (/backend)
-
-### ✅ Technologies
-- FastAPI
-- Uvicorn
-- NumPy, Pandas
-- Meteomatics API
-- Python-dotenv
-
-### 📂 Key Files
-- main.py: FastAPI app with /api/query and /api/query/csv endpoints
-- meteomatics.py: Fetches real weather data using Meteomatics API
-- .env: Stores credentials and config
-
-### 🔐 Environment Variables
-```env
-METEOMATICS_USER=manipalacademyofhighereducation_aafreen_amina
-METEOMATICS_PASSWORD=1h4sYI3dS92UrlZRB63j
-DATA_PROVIDER=meteomatics and NASA POWER Daily Point API
-YEAR_START=1985
-YEAR_END=2024
+## 📁 Project Files
+- [Project Summary](./PROJECT_SUMMARY.md)
+- [Detailed Description](./DETAILED_DESCRIPTION.md)
+- [NASA Data Usage](./NASA_DATA.md)
+- [AI Usage Disclosure](./AI_USAGE.md)
+- [Final Project Link](./FINAL_PROJECT_LINK.md)
+- [Demo Presentation](./DEMO_LINK.md)
